@@ -1,0 +1,7 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+note1:
+  title: Some note
+  body: I am some other note
+  status: normal
+

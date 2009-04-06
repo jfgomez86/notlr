@@ -1,0 +1,77 @@
+ * {
+  font-family: Verdana, Arial, Helvetica;
+}
+
+.clear {
+  clear:both;
+}
+
+.note {
+  background: #ffff99;
+  border: 1px solid #333;
+  margin: 3px;
+  width: 160px;
+  min-height: 145px;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.note_body {
+  font-size: 0.8em;
+}
+
+.note_title {
+  background: #ffff88;
+  display:block;
+  font-weight: 600;
+  font-size:0.9em;
+  padding:0px 3px;
+  border-bottom: 1px solid #ff1;
+}
+
+.note_actions {
+  position:relative;
+  float:right;
+  top:0.85em;
+  right:0.85em;
+  font-size: 0.6em;
+  font-weight: 600;
+}
+
+.note_actions span {
+  display:inline-block; 
+  padding: 0 4px;
+  margin:0;
+}
+
+.edit {
+  background: #8f8;
+}
+
+.minimize {
+  background: #88f;
+}
+
+.delete {
+  background: #f88;
+}
+
+#hidden_notes {
+  list-style-type:none; 
+  margin:0;
+  padding:0;
+  position:absolute;
+  bottom:5px;
+}
+
+#hidden_notes li {
+  display:inline;
+  padding: 0 10px;
+  margin: 0 2px;
+  background: #fef;
+  border: 1px solid #f88;
+}
+
+#hidden_notes li.hover {
+  background:#f88; 
+} 

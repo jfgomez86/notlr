@@ -1,0 +1,4 @@
+page << "Modalbox.hide();"
+page.insert_html :top, "shown_notes", :partial => @note
+page.visual_effect :appear, "note_#{@note.id}", :duration => 1
+page << "Notlr.bindNoteBehaviors($('note_#{@note.id}'));"
