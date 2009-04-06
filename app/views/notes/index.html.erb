@@ -8,8 +8,10 @@
     <% end -%>
   </div>
 <% else -%>
-  <span class="warning">There are no notes. <%= link_to_function "Create One", 
-    "Modalbox.show('%s', {title: 'Create a new Note'})" % new_note_path %></span>
+  <%= link_to_function "Create a note", 
+    "Modalbox.show('%s', {title: 'Create a new Note'})" % new_note_path %> 
+  <div id="shown_notes">
+  </div>
 <% end -%>
 <ul id="hidden_notes"></ul>
 <%= hidden_field_tag "auth_token",  form_authenticity_token %> 

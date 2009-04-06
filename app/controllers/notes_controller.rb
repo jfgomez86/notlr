@@ -22,11 +22,6 @@ class NotesController < ApplicationController
     end
   end
 
-  # GET /notes/1/edit
-  def edit
-    @note = Note.find(params[:id])
-  end
-
   # POST /notes
   # POST /notes.xml
   def create

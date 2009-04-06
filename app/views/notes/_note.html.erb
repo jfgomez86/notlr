@@ -2,7 +2,7 @@
   <span class="note_title"><%= note.title %></span>
   <span class="note_body"><%= note.body %></span>
   <div class="note_actions" style="display:none">
-    <span class="edit"><%= link_to "Edit", "#" %></span>
+    <!--<span class="edit"><%= link_to "Edit", "#" %></span>-->
     <span class="minimize"><%= link_to "Hide", "#" %></span>
     <span class="delete"><%= link_to_remote "Delete", :url => note_path(note), :method => :delete, :confirm => "Are you sure?" %></span>
   </div>
