@@ -42,6 +42,17 @@ class NotesController < ApplicationController
     end
   end
 
+
+  def edit
+    @note = Note.find(params[:id])
+
+    respond_to do |format|
+      format.js { render :partial => 'edit' }
+      format.html # new.html.erb
+      format.xml  { render :xml => @note }
+    end
+  end
+
   # PUT /notes/1
   # PUT /notes/1.xml
   def update

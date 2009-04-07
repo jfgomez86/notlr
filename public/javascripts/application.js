@@ -96,7 +96,7 @@ var Notlr = function() {
       new Draggable(el, { 
         revert: false, 
         scroll:window,
-        onEnd: function(e,el) {
+        onEnd: function(e,ev) {
           noteElement = e.element;
           note_id = e.element.id.replace(/note_/, ""); 
           position = getNotePosition(note_id);
@@ -104,6 +104,14 @@ var Notlr = function() {
           Notlr.updateNote(note_id, note);
         }
       }); 
+
+      /* This will allow editing notes, although seems a bit complex right now
+       *
+       *el.observe('dblclick', function() {
+       *  Modalbox.show('/notes/' + el.id.replace(/note_/, "") + "/edit")
+       *});
+       */
+
     }
 
   }
@@ -144,20 +152,20 @@ var serializer = {
           prefix = prefixes[0];
         }
 
-      } else {
-      value = encodeURIComponent(object[key]);
-      if (prefix.length > 0) {
-        prefixed_key = prefix+'['+key+']'          
         } else {
-          prefixed_key = key
+        value = encodeURIComponent(object[key]);
+        if (prefix.length > 0) {
+          prefixed_key = prefix+'['+key+']'          
+          } else {
+            prefixed_key = key
+          }
+          prefixed_key = encodeURIComponent(prefixed_key);
+          if (value) values.push(prefixed_key + '=' + value);
         }
-        prefixed_key = encodeURIComponent(prefixed_key);
-        if (value) values.push(prefixed_key + '=' + value);
       }
+      return values;
     }
-    return values;
   }
-}
 
 
-Element.observe(window, 'dom:loaded', Notlr.bindBehaviors );
+  Element.observe(window, 'dom:loaded', Notlr.bindBehaviors );
