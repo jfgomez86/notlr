@@ -15,6 +15,18 @@ var Notlr = function() {
       Notlr.bindNoteBehaviors(el);
     });
 
+    // Make hovering a link appear the href as a CoolTip
+    $$('.link').each(function(el) {
+      el.title = el.href;
+      new Tooltip(el, {
+        mouseFollow: true,
+        backgroundColor: '#ff4', 
+        textColor: '#00f',
+        maxWidth: 500,
+        delay: 100
+      });
+    });
+
   }
 
   function makeHiddenNote(el) {
