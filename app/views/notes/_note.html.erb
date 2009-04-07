@@ -1,4 +1,4 @@
-<% content_tag_for :div, note, :class => note.status, :style => "display:none" do -%>
+<% content_tag_for :div, note, :class => note.status, :style => "display:none; left:#{note.left}px; top:#{note.top}px;" do -%>
   <span class="note_title"><%= note.title %></span>
   <span class="note_body"><%= note.body %></span>
   <div class="note_actions" style="display:none">

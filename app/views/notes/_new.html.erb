@@ -1,13 +1,12 @@
 <% remote_form_for(@note) do |f| %>
-  <%= f.error_messages %>
-
+  <%= f.error_messages %> 
   <p>
     <%= f.label :title %><br />
     <%= f.text_field :title %>
   </p>
   <p>
     <%= f.label :body %><br />
-    <%= f.text_field :body %>
+    <%= f.text_area :body, :size => "25x4" %>
   </p>
   <p>
     <%= f.submit 'Create' %>

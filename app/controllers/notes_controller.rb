@@ -35,6 +35,9 @@ class NotesController < ApplicationController
       else
         format.html { render :action => "new" }
         format.xml  { render :xml => @note.errors, :status => :unprocessable_entity }
+        format.js  do
+          render :js => "alert('Note needs Title AND Body.\\nWill not save if one is mising.')"
+        end
       end
     end
   end
@@ -50,7 +53,7 @@ class NotesController < ApplicationController
         format.xml  { head :ok }
         format.js do
           response.content_type = "application/json"
-          render :js => @note.to_json(:only => [:title, :body])
+          render :js => @note.to_json(:only => [:title, :body, :left, :top])
         end
       else
         format.html { render :action => "edit" }

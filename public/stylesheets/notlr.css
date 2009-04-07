@@ -7,12 +7,13 @@
 }
 
 .note {
+  position:absolute;
   background: #ffff99;
   border: 1px solid #333;
   margin: 3px;
   width: 160px;
   min-height: 145px;
-  display: inline-block;
+  display: block;
   padding-bottom: 15px;
 }
 
@@ -75,3 +76,10 @@
 #hidden_notes li.hover {
   background:#f88; 
 } 
+
+#new_note {
+  width:300px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  padding: 3px 10px;
+}

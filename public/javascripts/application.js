@@ -58,6 +58,13 @@ var Notlr = function() {
     return Object.extend({authenticity_token: $('auth_token').value}, params);
   }
 
+  function getNotePosition(note_id){
+    noteElement = $('note_'+note_id);
+    note_left = parseInt(noteElement.getStyle('left').replace(/px/, ""));
+    note_top = parseInt(noteElement.getStyle('top').replace(/px/, "")); 
+    return {left: note_left, top: note_top};
+  }
+
   return {
     bindBehaviors: function(){
       bindNotlrBehaviors();
@@ -86,7 +93,17 @@ var Notlr = function() {
         Notlr.updateNote(el.id.replace(/note_id/,""), {note: {status: 'hidden'}});
       });
 
-      new Draggable(el, { revert: false, scroll:window }); 
+      new Draggable(el, { 
+        revert: false, 
+        scroll:window,
+        onEnd: function(e,el) {
+          noteElement = e.element;
+          note_id = e.element.id.replace(/note_/, ""); 
+          position = getNotePosition(note_id);
+          note = {note: position};
+          Notlr.updateNote(note_id, note);
+        }
+      }); 
     }
 
   }

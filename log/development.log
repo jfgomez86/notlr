@@ -404,3 +404,683 @@ Rendering template within layouts/notes
 Rendering notes/index
 Rendered notes/_note (7.8ms)
 Completed in 38ms (View: 13, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-06 23:57:26) [GET]
+  [4;36;1mNote Load (0.8ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (4.9ms)
+Completed in 21ms (View: 8, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-06 23:57:33) [GET]
+  [4;35;1mNote Load (0.9ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (5.5ms)
+Completed in 22ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:00:06) [GET]
+  [4;36;1mNote Load (0.8ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (5.4ms)
+Completed in 21ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:00:15) [GET]
+  [4;35;1mNote Load (0.8ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (4.8ms)
+Completed in 21ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:00:18) [GET]
+  [4;36;1mNote Load (0.8ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (5.2ms)
+Completed in 22ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:00:24) [GET]
+  [4;35;1mNote Load (0.8ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (6.0ms)
+Completed in 95ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:00:39) [GET]
+  [4;36;1mNote Load (1.5ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (9.9ms)
+Completed in 42ms (View: 17, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:01:42) [GET]
+  [4;35;1mNote Load (0.8ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (4.7ms)
+Completed in 30ms (View: 8, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:02:06) [GET]
+  [4;36;1mNote Load (1.6ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (9.6ms)
+Completed in 42ms (View: 17, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:06:15) [GET]
+  [4;35;1mNote Load (0.8ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (5.2ms)
+Completed in 22ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:06:24) [GET]
+  [4;36;1mNote Load (0.8ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (5.8ms)
+Completed in 29ms (View: 15, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:19:41) [GET]
+  [4;35;1mNote Load (1.7ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (33.8ms)
+Completed in 108ms (View: 79, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:19:49) [GET]
+  [4;36;1mNote Load (1.5ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (5.2ms)
+Completed in 35ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:20:00) [GET]
+  [4;35;1mNote Load (0.9ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (5.5ms)
+Completed in 21ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:20:02) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969235", "note"=>{"left"=>"347", "top"=>"71"}}
+  [4;36;1mNote Load (0.5ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969235) [0m
+  [4;35;1mNote Update (0.5ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:20:02', "left" = 347, "top" = 71 WHERE "id" = 1012969235[0m
+Completed in 162ms (View: 20, DB: 1) | 200 OK [http://localhost/notes/1012969235]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:20:38) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969235", "note"=>{"left"=>"33", "top"=>"50"}}
+  [4;36;1mNote Load (0.4ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969235) [0m
+  [4;35;1mNote Update (0.4ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:20:38', "left" = 33, "top" = 50 WHERE "id" = 1012969235[0m
+Completed in 175ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969235]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:20:50) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969235", "note"=>{"left"=>"643", "top"=>"14"}}
+  [4;36;1mNote Load (0.5ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969235) [0m
+  [4;35;1mNote Update (0.4ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:20:50', "left" = 643, "top" = 14 WHERE "id" = 1012969235[0m
+Completed in 133ms (View: 2, DB: 1) | 200 OK [http://localhost/notes/1012969235]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:22:37) [GET]
+  [4;36;1mNote Load (0.8ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (44.0ms)
+Completed in 64ms (View: 52, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:22:41) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969235", "note"=>{"left"=>"91", "top"=>"12"}}
+  [4;35;1mNote Load (0.5ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969235) [0m
+  [4;36;1mNote Update (0.4ms)[0m   [0;1mUPDATE "notes" SET "updated_at" = '2009-04-07 05:22:41', "left" = 91, "top" = 12 WHERE "id" = 1012969235[0m
+Completed in 146ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969235]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:22:42) [GET]
+  [4;35;1mNote Load (1.5ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (9.3ms)
+Completed in 42ms (View: 16, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:22:53) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969235", "note"=>{"left"=>"91", "top"=>"10"}}
+  [4;36;1mNote Load (0.6ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969235) [0m
+  [4;35;1mNote Update (0.4ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:22:53', "top" = 10 WHERE "id" = 1012969235[0m
+Completed in 141ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969235]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:22:54) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969235", "note"=>{"status"=>"hidden"}}
+  [4;36;1mNote Load (0.5ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969235) [0m
+  [4;35;1mNote Update (0.4ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:22:54', "status" = 'hidden' WHERE "id" = 1012969235[0m
+Completed in 141ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969235]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:22:55) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969235", "note"=>{"status"=>"normal"}}
+  [4;36;1mNote Load (0.4ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969235) [0m
+  [4;35;1mNote Update (14.2ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:22:55', "status" = 'normal' WHERE "id" = 1012969235[0m
+Completed in 215ms (View: 1, DB: 15) | 200 OK [http://localhost/notes/1012969235]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:22:57) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (2.4ms)
+Completed in 20ms (View: 4, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#create (for 127.0.0.1 at 2009-04-07 00:23:02) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "note"=>{"body"=>"Hello Note :D", "title"=>"Note 2"}}
+  [4;35;1mNote Create (22.8ms)[0m   [0mINSERT INTO "notes" ("left", "created_at", "title", "body", "updated_at", "status", "top") VALUES(NULL, '2009-04-07 05:23:02', 'Note 2', 'Hello Note :D', '2009-04-07 05:23:02', 'normal', NULL)[0m
+Rendering notes/create
+Rendered notes/_note (1.9ms)
+Completed in 151ms (View: 6, DB: 23) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:23:07) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969236", "note"=>{"left"=>"471", "top"=>"-187"}}
+  [4;36;1mNote Load (0.5ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969236) [0m
+  [4;35;1mNote Update (0.4ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:23:07', "left" = 471, "top" = -187 WHERE "id" = 1012969236[0m
+Completed in 141ms (View: 2, DB: 1) | 200 OK [http://localhost/notes/1012969236]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:23:09) [GET]
+  [4;36;1mNote Load (1.1ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (5.8ms)
+Rendered notes/_note (1.0ms)
+Completed in 26ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:23:12) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969236", "note"=>{"status"=>"hidden"}}
+  [4;35;1mNote Load (0.5ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969236) [0m
+  [4;36;1mNote Update (0.5ms)[0m   [0;1mUPDATE "notes" SET "updated_at" = '2009-04-07 05:23:12', "status" = 'hidden' WHERE "id" = 1012969236[0m
+Completed in 138ms (View: 2, DB: 1) | 200 OK [http://localhost/notes/1012969236]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:23:15) [GET]
+  [4;35;1mNote Load (0.9ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (4.6ms)
+Rendered notes/_note (0.8ms)
+Completed in 24ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:23:16) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969236", "note"=>{"status"=>"normal"}}
+  [4;36;1mNote Load (0.5ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969236) [0m
+  [4;35;1mNote Update (0.6ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:23:16', "status" = 'normal' WHERE "id" = 1012969236[0m
+Completed in 190ms (View: 2, DB: 1) | 200 OK [http://localhost/notes/1012969236]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:23:18) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969236", "note"=>{"left"=>"107", "top"=>"-50"}}
+  [4;36;1mNote Load (0.5ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969236) [0m
+  [4;35;1mNote Update (0.4ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:23:18', "left" = 107, "top" = -50 WHERE "id" = 1012969236[0m
+Completed in 235ms (View: 2, DB: 1) | 200 OK [http://localhost/notes/1012969236]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:23:19) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969236", "note"=>{"left"=>"353", "top"=>"-13"}}
+  [4;36;1mNote Load (0.4ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969236) [0m
+  [4;35;1mNote Update (0.5ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:23:19', "left" = 353, "top" = -13 WHERE "id" = 1012969236[0m
+Completed in 146ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969236]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:23:39) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (3.7ms)
+Completed in 29ms (View: 6, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#create (for 127.0.0.1 at 2009-04-07 00:23:45) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "note"=>{"body"=>"I love you Note", "title"=>"Note 3"}}
+  [4;35;1mNote Create (0.5ms)[0m   [0mINSERT INTO "notes" ("left", "created_at", "title", "body", "updated_at", "status", "top") VALUES(NULL, '2009-04-07 05:23:45', 'Note 3', 'I love you Note', '2009-04-07 05:23:45', 'normal', NULL)[0m
+Rendering notes/create
+Rendered notes/_note (1.3ms)
+Completed in 124ms (View: 4, DB: 0) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:23:50) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (2.3ms)
+Completed in 19ms (View: 3, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#create (for 127.0.0.1 at 2009-04-07 00:23:56) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "note"=>{"body"=>"Something's Wrong", "title"=>"Note 4"}}
+  [4;35;1mNote Create (12.8ms)[0m   [0mINSERT INTO "notes" ("left", "created_at", "title", "body", "updated_at", "status", "top") VALUES(NULL, '2009-04-07 05:23:56', 'Note 4', 'Something''s Wrong', '2009-04-07 05:23:56', 'normal', NULL)[0m
+Rendering notes/create
+Rendered notes/_note (2.1ms)
+Completed in 229ms (View: 6, DB: 13) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:24:00) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969238", "note"=>{"left"=>"557", "top"=>"-317"}}
+  [4;36;1mNote Load (0.5ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969238) [0m
+  [4;35;1mNote Update (0.4ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:24:00', "left" = 557, "top" = -317 WHERE "id" = 1012969238[0m
+Completed in 173ms (View: 2, DB: 1) | 200 OK [http://localhost/notes/1012969238]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:24:01) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969237", "note"=>{"left"=>"183", "top"=>"-148"}}
+  [4;36;1mNote Load (0.6ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969237) [0m
+  [4;35;1mNote Update (2.9ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:24:01', "left" = 183, "top" = -148 WHERE "id" = 1012969237[0m
+Completed in 200ms (View: 1, DB: 3) | 200 OK [http://localhost/notes/1012969237]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:24:05) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969236", "note"=>{"left"=>"446", "top"=>"-196"}}
+  [4;36;1mNote Load (0.9ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969236) [0m
+  [4;35;1mNote Update (0.6ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:24:05', "left" = 446, "top" = -196 WHERE "id" = 1012969236[0m
+Completed in 178ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969236]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:24:06) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969236", "note"=>{"left"=>"395", "top"=>"-114"}}
+  [4;36;1mNote Load (0.6ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969236) [0m
+  [4;35;1mNote Update (0.5ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:24:06', "left" = 395, "top" = -114 WHERE "id" = 1012969236[0m
+Completed in 165ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969236]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:24:07) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969236", "note"=>{"left"=>"374", "top"=>"-93"}}
+  [4;36;1mNote Load (0.6ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969236) [0m
+  [4;35;1mNote Update (0.4ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:24:07', "left" = 374, "top" = -93 WHERE "id" = 1012969236[0m
+Completed in 147ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969236]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:24:08) [GET]
+  [4;36;1mNote Load (1.2ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (5.0ms)
+Rendered notes/_note (0.8ms)
+Rendered notes/_note (0.7ms)
+Rendered notes/_note (0.8ms)
+Completed in 24ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:24:15) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969237", "note"=>{"left"=>"622", "top"=>"-354"}}
+  [4;35;1mNote Load (0.5ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969237) [0m
+  [4;36;1mNote Update (0.4ms)[0m   [0;1mUPDATE "notes" SET "updated_at" = '2009-04-07 05:24:15', "left" = 622, "top" = -354 WHERE "id" = 1012969237[0m
+Completed in 144ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969237]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:24:16) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969238", "note"=>{"left"=>"820", "top"=>"-461"}}
+  [4;35;1mNote Load (0.5ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969238) [0m
+  [4;36;1mNote Update (0.4ms)[0m   [0;1mUPDATE "notes" SET "updated_at" = '2009-04-07 05:24:16', "left" = 820, "top" = -461 WHERE "id" = 1012969238[0m
+Completed in 159ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969238]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:24:32) [GET]
+  [4;35;1mNote Load (2.4ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (8.4ms)
+Rendered notes/_note (0.8ms)
+Rendered notes/_note (0.9ms)
+Rendered notes/_note (1.0ms)
+Completed in 45ms (View: 19, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:24:35) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969235", "note"=>{"left"=>"188", "top"=>"145"}}
+  [4;36;1mNote Load (0.6ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969235) [0m
+  [4;35;1mNote Update (0.5ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:24:35', "left" = 188, "top" = 145 WHERE "id" = 1012969235[0m
+Completed in 142ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969235]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:24:36) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969236", "note"=>{"left"=>"394", "top"=>"110"}}
+  [4;36;1mNote Load (0.5ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969236) [0m
+  [4;35;1mNote Update (0.4ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:24:36', "left" = 394, "top" = 110 WHERE "id" = 1012969236[0m
+Completed in 151ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969236]
+  [4;35;1mNote Load (0.0ms)[0m   [0mSQLite3::SQLException: database schema has changed: SELECT * FROM "notes" [0m
+  [4;36;1mNote Load (2.3ms)[0m   [0;1mSELECT * FROM "notes" [0m
+  [4;35;1mNote Destroy (1.1ms)[0m   [0mDELETE FROM "notes" WHERE "id" = 1012969235[0m
+  [4;36;1mNote Destroy (0.6ms)[0m   [0;1mDELETE FROM "notes" WHERE "id" = 1012969236[0m
+  [4;35;1mNote Destroy (0.5ms)[0m   [0mDELETE FROM "notes" WHERE "id" = 1012969237[0m
+  [4;36;1mNote Destroy (0.5ms)[0m   [0;1mDELETE FROM "notes" WHERE "id" = 1012969238[0m
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:24:49) [GET]
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Completed in 28ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:24:51) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (2.5ms)
+Completed in 21ms (View: 4, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#create (for 127.0.0.1 at 2009-04-07 00:24:55) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "note"=>{"body"=>"just testing", "title"=>"Note 1"}}
+  [4;36;1mNote Create (0.4ms)[0m   [0;1mINSERT INTO "notes" ("left", "created_at", "title", "body", "updated_at", "status", "top") VALUES(NULL, '2009-04-07 05:24:55', 'Note 1', 'just testing', '2009-04-07 05:24:55', 'normal', NULL)[0m
+Rendering notes/create
+Rendered notes/_note (2.1ms)
+Completed in 146ms (View: 6, DB: 0) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:24:58) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (3.2ms)
+Completed in 20ms (View: 4, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#create (for 127.0.0.1 at 2009-04-07 00:25:00) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "note"=>{"body"=>"Blah", "title"=>"Note 2"}}
+  [4;36;1mNote Create (0.4ms)[0m   [0;1mINSERT INTO "notes" ("left", "created_at", "title", "body", "updated_at", "status", "top") VALUES(NULL, '2009-04-07 05:25:00', 'Note 2', 'Blah', '2009-04-07 05:25:00', 'normal', NULL)[0m
+Rendering notes/create
+Rendered notes/_note (1.4ms)
+Completed in 114ms (View: 4, DB: 0) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:25:02) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969240", "note"=>{"left"=>"368", "top"=>"98"}}
+  [4;35;1mNote Load (0.8ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969240) [0m
+  [4;36;1mNote Update (0.7ms)[0m   [0;1mUPDATE "notes" SET "updated_at" = '2009-04-07 05:25:02', "left" = 368, "top" = 98 WHERE "id" = 1012969240[0m
+Completed in 154ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969240]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:25:04) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969239", "note"=>{"left"=>"134", "top"=>"105"}}
+  [4;35;1mNote Load (0.5ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969239) [0m
+  [4;36;1mNote Update (0.4ms)[0m   [0;1mUPDATE "notes" SET "updated_at" = '2009-04-07 05:25:04', "left" = 134, "top" = 105 WHERE "id" = 1012969239[0m
+Completed in 168ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969239]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:25:07) [GET]
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (5.5ms)
+Rendered notes/_note (1.1ms)
+Completed in 31ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:25:10) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969239", "note"=>{"status"=>"hidden"}}
+  [4;36;1mNote Load (0.6ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969239) [0m
+  [4;35;1mNote Update (0.4ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:25:10', "status" = 'hidden' WHERE "id" = 1012969239[0m
+Completed in 144ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969239]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:25:13) [GET]
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (4.9ms)
+Rendered notes/_note (0.8ms)
+Completed in 22ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:25:15) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969239", "note"=>{"status"=>"normal"}}
+  [4;35;1mNote Load (0.6ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969239) [0m
+  [4;36;1mNote Update (0.5ms)[0m   [0;1mUPDATE "notes" SET "updated_at" = '2009-04-07 05:25:15', "status" = 'normal' WHERE "id" = 1012969239[0m
+Completed in 147ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969239]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:25:20) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969239", "note"=>{"left"=>"563", "top"=>"45"}}
+  [4;35;1mNote Load (0.4ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969239) [0m
+  [4;36;1mNote Update (0.4ms)[0m   [0;1mUPDATE "notes" SET "updated_at" = '2009-04-07 05:25:20', "left" = 563, "top" = 45 WHERE "id" = 1012969239[0m
+Completed in 144ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969239]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:25:21) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969239", "note"=>{"status"=>"hidden"}}
+  [4;35;1mNote Load (0.6ms)[0m   [0mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969239) [0m
+  [4;36;1mNote Update (0.4ms)[0m   [0;1mUPDATE "notes" SET "updated_at" = '2009-04-07 05:25:21', "status" = 'hidden' WHERE "id" = 1012969239[0m
+Completed in 157ms (View: 2, DB: 1) | 200 OK [http://localhost/notes/1012969239]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:25:23) [GET]
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (4.6ms)
+Rendered notes/_note (0.8ms)
+Completed in 21ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:25:26) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969239", "note"=>{"status"=>"normal"}}
+  [4;36;1mNote Load (0.4ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969239) [0m
+  [4;35;1mNote Update (0.4ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:25:26', "status" = 'normal' WHERE "id" = 1012969239[0m
+Completed in 226ms (View: 1, DB: 1) | 200 OK [http://localhost/notes/1012969239]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:25:28) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969239", "note"=>{"left"=>"15", "top"=>"84"}}
+  [4;36;1mNote Load (0.9ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969239) [0m
+  [4;35;1mNote Update (0.6ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:25:28', "left" = 15, "top" = 84 WHERE "id" = 1012969239[0m
+Completed in 158ms (View: 2, DB: 1) | 200 OK [http://localhost/notes/1012969239]
+
+
+Processing NotesController#update (for 127.0.0.1 at 2009-04-07 00:25:31) [PUT]
+  Parameters: {"authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "id"=>"1012969240", "note"=>{"left"=>"326", "top"=>"100"}}
+  [4;36;1mNote Load (0.4ms)[0m   [0;1mSELECT * FROM "notes" WHERE ("notes"."id" = 1012969240) [0m
+  [4;35;1mNote Update (0.4ms)[0m   [0mUPDATE "notes" SET "updated_at" = '2009-04-07 05:25:31', "left" = 326, "top" = 100 WHERE "id" = 1012969240[0m
+Completed in 144ms (View: 2, DB: 1) | 200 OK [http://localhost/notes/1012969240]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:26:14) [GET]
+  [4;36;1mNote Load (0.9ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (4.7ms)
+Rendered notes/_note (0.8ms)
+Completed in 29ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:26:17) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (3.3ms)
+Completed in 23ms (View: 7, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:27:35) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (2.5ms)
+Completed in 19ms (View: 4, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:28:54) [GET]
+  [4;35;1mNote Load (0.9ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (4.8ms)
+Rendered notes/_note (0.9ms)
+Completed in 22ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:28:57) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (2.9ms)
+Completed in 23ms (View: 4, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:29:23) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (3.4ms)
+Completed in 27ms (View: 5, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:30:09) [GET]
+  [4;36;1mNote Load (0.9ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (4.9ms)
+Rendered notes/_note (0.9ms)
+Completed in 24ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:30:12) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (2.3ms)
+Completed in 19ms (View: 3, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:30:36) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (2.5ms)
+Completed in 27ms (View: 4, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:30:38) [GET]
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (4.8ms)
+Rendered notes/_note (0.9ms)
+Completed in 23ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:30:41) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (2.4ms)
+Completed in 19ms (View: 3, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:30:56) [GET]
+  [4;35;1mNote Load (1.9ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (10.1ms)
+Rendered notes/_note (1.7ms)
+Completed in 45ms (View: 18, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:30:58) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (2.5ms)
+Completed in 19ms (View: 4, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:31:09) [GET]
+  [4;35;1mNote Load (1.7ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (6.3ms)
+Rendered notes/_note (1.2ms)
+Completed in 41ms (View: 16, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:31:13) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (2.4ms)
+Completed in 21ms (View: 4, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:31:29) [GET]
+  [4;35;1mNote Load (1.9ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (33.6ms)
+Rendered notes/_note (1.1ms)
+Completed in 71ms (View: 41, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:31:31) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (2.3ms)
+Completed in 26ms (View: 3, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:33:02) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (2.9ms)
+Completed in 22ms (View: 4, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:35:26) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (3.9ms)
+Completed in 26ms (View: 8, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#create (for 127.0.0.1 at 2009-04-07 00:35:30) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "note"=>{"body"=>"", "title"=>"Note 3"}}
+
+ActionView::MissingTemplate (Missing template notes/new.erb in view path app/views):
+  app/controllers/notes_controller.rb:36:in `create'
+  app/controllers/notes_controller.rb:30:in `create'
+  thin (1.0.0) lib/thin/connection.rb:63:in `pre_process'
+  thin (1.0.0) lib/thin/connection.rb:54:in `process'
+  thin (1.0.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run_machine'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run'
+  thin (1.0.0) lib/thin/backends/base.rb:57:in `start'
+  thin (1.0.0) lib/thin/server.rb:150:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing NotesController#index (for 127.0.0.1 at 2009-04-07 00:35:43) [GET]
+  [4;35;1mNote Load (1.7ms)[0m   [0mSELECT * FROM "notes" [0m
+Rendering template within layouts/notes
+Rendering notes/index
+Rendered notes/_note (4.9ms)
+Rendered notes/_note (1.0ms)
+Completed in 121ms (View: 97, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing NotesController#new (for 127.0.0.1 at 2009-04-07 00:35:48) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "notes" [0m
+Rendered notes/_new (3.9ms)
+Completed in 30ms (View: 6, DB: 0) | 200 OK [http://localhost/notes/new]
+
+
+Processing NotesController#create (for 127.0.0.1 at 2009-04-07 00:39:30) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "note"=>{"body"=>"", "title"=>"Note 3"}}
+Completed in 21ms (View: 1, DB: 0) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#create (for 127.0.0.1 at 2009-04-07 00:39:34) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "note"=>{"body"=>"", "title"=>"Note 3"}}
+Completed in 33ms (View: 1, DB: 0) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#create (for 127.0.0.1 at 2009-04-07 00:39:47) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "note"=>{"body"=>"", "title"=>"Note 3"}}
+Completed in 40ms (View: 1, DB: 0) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#create (for 127.0.0.1 at 2009-04-07 00:40:07) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "note"=>{"body"=>"", "title"=>"Note 3"}}
+Completed in 39ms (View: 1, DB: 0) | 200 OK [http://localhost/notes]
+
+
+Processing NotesController#create (for 127.0.0.1 at 2009-04-07 00:40:18) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"E4X1w9QF33RnirtFKtUNABR7gPycAoW4kmLpJ6/FW+o=", "note"=>{"body"=>"", "title"=>"Note 3"}}
+Completed in 41ms (View: 1, DB: 0) | 200 OK [http://localhost/notes]

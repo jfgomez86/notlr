@@ -1,6 +1,6 @@
 class Note < ActiveRecord::Base
   include NoteResource
-  validates_presence_of :body
+  validates_presence_of :body, :title
   before_save :replace_links
 
   def initialize(*args)
