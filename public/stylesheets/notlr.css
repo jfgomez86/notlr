@@ -35,7 +35,7 @@ a:hover {
   font-size: 0.7em;
   background: url(/images/note-body.png) repeat-y;
   width:150px;
-  padding:8px 22px;
+  padding:8px 16px;
 }
 
 .note_title {

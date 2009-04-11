@@ -85,7 +85,7 @@ var Notlr = function() {
     },
 
     deleteNote: function(note_id){
-      $('note_'+note_id).fade({duration: 0.3});
+      $('note_'+note_id).switchOff({duration: 0.3});
       new Ajax.Request('/notes/' + note_id.replace(/note_/, ""), {
         method: 'delete',
         parameters:{authenticity_token: $('auth_token').value},
