@@ -6,6 +6,15 @@ body {
   background: #C28250 url(/images/cork.jpg) repeat;
 }
 
+a {
+  color: #000;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
 .clear {
   clear:both;
 }
@@ -61,15 +70,15 @@ body {
 }
 
 .edit {
-  background: #8f8;
+  /*background: #8f8;*/
 }
 
 .minimize {
-  background: #88f;
+  /*background: #88f;*/
 }
 
 .delete {
-  background: #f88;
+  /*background: #f88;*/
 }
 
 #hidden_notes {
@@ -84,12 +93,13 @@ body {
   display:inline;
   padding: 0 10px;
   margin: 0 2px;
-  background: #fef;
-  border: 1px solid #f88;
+  background:#FAE979; 
+  border: 2px solid #000;
+  font-weight: 600;
 }
 
 #hidden_notes li.hover {
-  background:#f88; 
+  background: #fef;
 } 
 
 #new_note {
@@ -97,4 +107,25 @@ body {
   margin: 0 auto;
   border: 1px solid #fff;
   padding: 3px 10px;
+}
+
+.new_note_btn {
+  background: url(/images/new_note_btn.png) 157px 0;
+  display: block;
+  height: 47px;
+  width: 157px;
+}
+
+.new_note_btn:hover {
+  background: url(/images/new_note_btn.png) 314px 0;
+}
+
+.new_note_btn:active {
+  background: url(/images/new_note_btn.png) 0px 0;
+}
+
+.trash_bin {
+  position: absolute;
+  bottom: 30px;
+  right: 15px;
 }

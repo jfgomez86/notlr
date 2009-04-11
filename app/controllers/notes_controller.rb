@@ -36,7 +36,7 @@ class NotesController < ApplicationController
         format.html { render :action => "new" }
         format.xml  { render :xml => @note.errors, :status => :unprocessable_entity }
         format.js  do
-          render :js => "alert('Note needs Title AND Body.\\nWill not save if one is mising.')"
+          render :js => "alert('Note needs Title (30 characters max!) AND Body.\\nWill not save if one is mising.'); $('note_submit').enable(); $('form_spinner').fade({duration: 0.3})"
         end
       end
     end
@@ -61,14 +61,12 @@ class NotesController < ApplicationController
     respond_to do |format|
       if @note.update_attributes(params[:note])
         format.html { redirect_to(notes_path) }
-        format.xml  { head :ok }
         format.js do
           response.content_type = "application/json"
           render :js => @note.to_json(:only => [:title, :body, :left, :top])
         end
       else
         format.html { render :action => "edit" }
-        format.xml  { render :xml => @note.errors, :status => :unprocessable_entity }
       end
     end
   end
@@ -77,16 +75,11 @@ class NotesController < ApplicationController
   # DELETE /notes/1.xml
   def destroy
     @note = Note.find(params[:id])
-    @note.destroy
-
+    @note.deleted_at = DateTime.now
+    @note.save
     respond_to do |format|
       format.html { redirect_to(notes_url) }
-      format.js do
-        render :update do |page|
-          page << "$('note_%s').fade({duration: 0.3})" % @note.id
-        end
-      end
-      format.xml  { head :ok }
+      format.js { head :ok }
     end
   end
 end

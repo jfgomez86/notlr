@@ -4,8 +4,8 @@ var Notlr = function() {
   function bindNotlrBehaviors() { 
 
     // Make all notes appear nicely and make a button for each hidden note
-    $$('.note.normal').each(function(el){ el.appear(); }); 
     $$('.note.hidden').each(function(el){ makeHiddenNote(el); }); 
+    $$('.note.normal').each(function(el){ el.appear(); }); 
 
     // Make all notes actions div hidden
     $$('.note_actions').each( function(el){ el.fade(); });
@@ -27,10 +27,23 @@ var Notlr = function() {
       });
     });
 
+    // The trash bin that archives the Notes. Gotta find the way to avoid
+    // calling updateNote after the onDrop callback
+    Droppables.add('trash', {
+      accept: 'note',
+      onDrop: function(dragelement, dropelement, ev){
+        note_id = dragelement.id.replace(/note_/, ""); 
+        Notlr.deleteNote(note_id);
+      }, 
+      onHover: function(dragelement, dropelement, ev){
+      },
+    });
+
   }
 
   function makeHiddenNote(el) {
 
+    el.fade({ duration:0.2 });
     note_id = el.id;
     note_title = el.down('.note_title').innerHTML;
 
@@ -83,12 +96,26 @@ var Notlr = function() {
       });
     },
 
+    deleteNote: function(note_id){
+      $('note_'+note_id).fade({duration: 0.3});
+      new Ajax.Request('/notes/' + note_id.replace(/note_/, ""), {
+        method: 'delete',
+        parameters:{authenticity_token: $('auth_token').value},
+        onSuccess: function() {
+          $('note_'+note_id).remove();
+        },
+        onFailure: function() {
+          alert('There was an error.');
+          $('note_'+note_id).appear({duration: 0.3});
+        }
+      });
+    },
+
     bindNoteBehaviors: function(el) {
       el.observe('mouseenter', function(e) { el.down('.note_actions').appear({duration: 0.2}); });
       el.observe('mouseleave', function(e) { el.down('.note_actions').fade({ duration: 0.2 }); });
 
       el.down('.note_actions').down('.minimize').observe('click', function(e){
-        el.fade({ duration:0.2 });
         makeHiddenNote(el);
         Notlr.updateNote(el.id.replace(/note_id/,""), {note: {status: 'hidden'}});
       });

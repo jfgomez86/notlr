@@ -9,6 +9,7 @@
     <%= f.text_area :body, :size => "25x4" %>
   </p>
   <p>
-    <%= f.submit 'Create' %>
+    <%= f.submit 'Create', :onclick => "this.innerHTML = 'Creating...'; this.disable(); $('form_spinner').appear({duration:0.3});" %>
+    <%= image_tag 'spinner.gif', :id => "form_spinner", :style => "display:none" %>
   </p>
 <% end %> 
