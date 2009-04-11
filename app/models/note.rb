@@ -1,6 +1,7 @@
 class Note < ActiveRecord::Base
   include NoteResource
   validates_presence_of :body, :title
+  validates_length_of :title, :within => 1..30, :on => :create, :message => "Title can contain a maximum of 30 characters."
   before_save :replace_links
 
   def initialize(*args)

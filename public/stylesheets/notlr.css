@@ -2,39 +2,54 @@
   font-family: Verdana, Arial, Helvetica;
 }
 
+body {
+  background: #C28250 url(/images/cork.jpg) repeat;
+}
+
 .clear {
   clear:both;
 }
 
 .note {
   position:absolute;
-  background: #ffff99;
-  border: 1px solid #333;
   margin: 3px;
-  width: 160px;
+  width: 182px;
   min-height: 145px;
   display: block;
-  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-top: 13px;
+  padding-right:17px;
+  padding-bottom:19px;
 }
 
 .note_body {
-  font-size: 0.8em;
+  font-size: 0.7em;
+  background: url(/images/note-body.png) repeat-y;
+  width:150px;
+  padding:8px 22px;
 }
 
 .note_title {
-  background: #ffff88;
+  background: url(/images/note-head.png) no-repeat;
+  height:16px;
   display:block;
   font-weight: 600;
   font-size:0.9em;
-  padding:0px 3px;
-  border-bottom: 1px solid #ff1;
+  padding:11px 15px;
+}
+
+.note_foot {
+  background: url(/images/note-foot.png) no-repeat bottom;
+  width:172px;
+  padding:0px 5px;
+  height:75px;
 }
 
 .note_actions {
   position:relative;
   float:right;
-  top:0.85em;
-  right:0.85em;
+  top:4.5em;
+  right:1.85em;
   font-size: 0.6em;
   font-weight: 600;
 }
