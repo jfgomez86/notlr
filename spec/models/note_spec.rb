@@ -24,7 +24,7 @@ describe Note do
     @new_note.should_not be_valid    
   end
   
-  it "should be invalid if is title contains more than 30 characters" do
+  it "should be invalid if its title contains more than 30 characters" do
     long_title = "really_long_title" * 5
     @new_note = Note.new(@valid_attributes.merge(:title => long_title))
     @new_note.should_not be_valid    
