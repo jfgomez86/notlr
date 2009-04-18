@@ -1,0 +1,15 @@
+<form onsubmit="new Ajax.Request('/notes', {asynchronous:true, evalScripts:true, parameters:Form.serialize(this)}); return false;" method="post" id="new_note" class="new_note" action="/notes"><div style="margin: 0pt; padding: 0pt;"><input type="hidden" value="5Pccm1ftYrjIPU2UxNHBsya92QCComN3k259ugW/OS0=" name="authenticity_token"/></div>
+   
+  <p>
+    <label for="note_title">Title</label><br/>
+    <input type="text" value="Note 17" size="30" name="note[title]" id="note_title" class="MB_focusable"/></input>
+  </p>
+  <p>
+    <label for="note_body">Body</label><br/>
+    <textarea rows="4" name="note[body]" id="note_body" cols="25" class="MB_focusable"></textarea>
+  </p>
+  <p>
+    <input type="submit" value="Create" onclick="this.innerHTML = 'Creating...'; this.disable(); $('form_spinner').appear({duration:0.3});" name="commit" id="note_submit" class="MB_focusable"></input>
+    <img style="display: none;" src="../../../../public/images/spinner.gif" id="form_spinner" alt="Spinner"/>
+  </p>
+</form>

@@ -179,20 +179,20 @@ var serializer = {
           prefix = prefixes[0];
         }
 
-        } else {
+      } else {
         value = encodeURIComponent(object[key]);
         if (prefix.length > 0) {
           prefixed_key = prefix+'['+key+']'          
-          } else {
-            prefixed_key = key
-          }
-          prefixed_key = encodeURIComponent(prefixed_key);
-          if (value) values.push(prefixed_key + '=' + value);
+        } else {
+          prefixed_key = key
         }
+        prefixed_key = encodeURIComponent(prefixed_key);
+        if (value) values.push(prefixed_key + '=' + value);
       }
-      return values;
     }
+    return values;
   }
+}
 
 
-  Element.observe(window, 'dom:loaded', Notlr.bindBehaviors );
+Element.observe(window, 'dom:loaded', Notlr.bindBehaviors );
