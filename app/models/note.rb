@@ -5,9 +5,16 @@ class Note < ActiveRecord::Base
   before_save :replace_links
 
   def initialize(*args)
-    super *args
+    super(*args)
     self.title ||= "Note #{Note.count + 1}"
-    self.status ||= "normal" 
+    self.status ||= "normal"
+  end
+
+
+  def to_xml(options = {})
+    default_only = [:id, :body, :title]
+    options[:only] = (options[:only] || []) + default_only
+    super(options)
   end
 
 end
